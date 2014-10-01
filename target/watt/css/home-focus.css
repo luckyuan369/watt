@@ -1,0 +1,416 @@
+body {
+	background: #FFF;
+}
+
+.info-head {
+	padding: 30px 0px 0px;
+	background: #F8F8F8 url(../images/phoenix/common/main-bg.jpg?v=115)
+		no-repeat 50% 0;
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.mod-head {
+	width: 100%;
+	padding: 0px 0px 30px;
+}
+
+.info-left {
+	width: 180px;
+	float: left;
+}
+
+.portrait {
+	width: 150px;
+	height: 150px;
+	position: relative;
+}
+
+.portrait img {
+	width: 150px;
+	height: 150px;
+	border-radius: 10px;
+	behavior: url(static/zhongchou/css/phoenix/PIE.htc);
+	position: relative;
+}
+
+.change-img {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+.change-img a {
+	padding: 0px 8px;
+	height: 18px;
+	line-height: 18px;
+	display: block;
+	background: #E8E8E8;
+	border: 1px solid #D9D9D9;
+	border-radius: 2px;
+	behavior: url(static/zhongchou/css/phoenix/PIE.htc);
+}
+
+.info-right {
+	float: left;
+	width: 550px;
+}
+
+.user-fun {
+	width: 100%;
+	height: 32px;
+}
+
+.user-fun h2 {
+	font-size: 24px;
+	line-height: 32px;
+	color: #000;
+	float: left;
+	padding-right: 10px;
+}
+
+.user-fun .btn-base {
+	margin: 6px 0px;
+	color: #FFF;
+}
+
+.user-fun .btn-base span {
+	padding: 0px 8px 0px 2px;
+	margin-right: 8px;
+}
+
+.icon-set,.icon-msg,.icon-info {
+	width: 16px;
+	height: 16px;
+	line-height: 0px;
+	font-size: 0px;
+	display: inline-block;
+	vertical-align: middle;
+	_margin-top: 3px;
+}
+
+.icon-set {
+	background-position: -45px -75px;
+}
+
+.icon-msg {
+	background-position: -60px -75px;
+}
+
+.icon-info {
+	background-position: -104px -119px;
+}
+
+.user-info {
+	padding: 10px 0px 0px;
+}
+
+.content-tab {
+	width: 957px;
+	margin: 0 auto;
+	border-right: 1px solid #dfdfdf;
+	position: relative;
+	bottom: -1px;
+}
+
+.content-tab ul li {
+	width: 318px;
+	text-align: center;
+	height: 48px;
+	background: #e8e8e8;
+	border-top: 1px solid #dfdfdf;
+	border-left: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+	float: left;
+}
+
+.content-tab ul li.select {
+	border-top: 1px solid #ed5e58;
+	background: #FFF;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #FFF;
+}
+
+.content-tab ul li a {
+	width: 100%;
+	height: 46px;
+	line-height: 46px;
+	border-top: 2px solid #e8e8e8;
+	display: block;
+	font-size: 16px;
+}
+
+.content-tab ul li.select a {
+	color: #ED5E58;
+	border-top: 2px solid #ed5e58;
+}
+
+.content-tab ul li a .btn-base {
+	vertical-align: -4px;
+	_vertical-align: 0px;
+	font-size: 12px;
+	line-height: 20px;
+	_margin: 12px 0px 0px;
+}
+
+.content-tab ul li a:hover {
+	color: #ED5E58;
+}
+
+.products {
+	background: #FFF;
+	padding: 20px 0px;
+	min-height: 410px;
+	_height: 410px;
+}
+
+.urtag {
+	padding: 5px 30px;
+}
+
+.urtag .btn-base {
+	margin-right: 3px;
+}
+
+.urtag .btn-base span {
+	padding: 0px 10px 0px 5px;
+}
+
+.urtag .btn-base:hover,.urtag .select {
+	background-position: -223px 0;
+}
+
+.urtag .btn-base:hover span,.urtag .select span {
+	background-position: 100% -263px;
+}
+
+.products-list {
+	width: 100%;
+}
+
+.products-list th,.products-list td {
+	padding: 15px 0px;
+	border-bottom: 1px solid #ececec;
+	vertical-align: middle;
+}
+
+.products-list thead th,.products-list thead td {
+	height: 22px;
+}
+
+.products-list table th {
+	padding-left: 30px;
+}
+
+.products-list table thead th,.products-list table thead td {
+	font-weight: bold;
+}
+
+.products-list table td {
+	text-align: center;
+}
+
+.project-img {
+	float: left;
+}
+
+.project-img img {
+	width: 60px;
+	height: 43px;
+	border-radius: 5px;
+	behavior: url(static/zhongchou/css/phoenix/PIE.htc);
+	position: relative;
+}
+
+.project-tit {
+	margin-left: 75px;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+.page {
+	padding: 10px 20px;
+}
+
+.products-list table td a {
+	color: #ED5E58;
+	margin: 0px 3px;
+}
+
+.products-list table td a span {
+	color: #FFF;
+	float: none;
+}
+
+.products-list table td a:hover {
+	color: #ED5E58;
+}
+
+.products-item {
+	width: 960px;
+}
+
+.products-item ul {
+	width: 980px;
+}
+
+.products-item ul li {
+	padding: 0px 20px 20px 0px;
+	float: left;
+} /*support list page*/
+.blue {
+	color: #3366cc;
+}
+
+.support-con .blue {
+	text-decoration: underline;
+}
+
+.main {
+	padding-top: 50px;
+	background: #F8F8F8 url(../images/phoenix/common/main-bg.jpg?v=115)
+		no-repeat 50% 0;
+}
+
+.info-support {
+	float: left;
+	width: 650px;
+	font-size: 24px;
+	line-height: 32px;
+	padding-left: 20px;
+}
+
+.info-support h2 {
+	padding: 4px 0 10px;
+	color: #000;
+}
+
+.support-con {
+	padding: 0 0 20px;
+}
+
+.support-con table {
+	width: 958px;
+	background: #FFF;
+	border: 1px solid #d6d6d6;
+	border-radius: 5px;
+}
+
+.support-con table th,.support-con table td {
+	text-align: center;
+}
+
+.support-con table thead th,.support-con table thead td {
+	background: #f3f3f3;
+	color: #000;
+	height: 48px;
+	line-height: 48px;
+	border-bottom: 1px solid #dddddd;
+	margin-bottom: -1px;
+}
+
+.support-con table thead td span,.support-con table thead td a {
+	padding: 0 5px;
+}
+
+.support-con table thead td a {
+	text-decoration: underline;
+}
+
+.support-con table tbody th,.support-con table tbody td {
+	border-top: 1px solid #ececec;
+	padding: 20px 10px;
+}
+
+.support-con table .br-set {
+	border-right: 1px solid #ececec;
+}
+
+.logistics {
+	width: 145px;
+}
+
+.info-logis {
+	float: left;
+	width: 100px;
+	text-align: center;
+}
+
+.btn-logis {
+	float: right;
+	width: 45px;
+	padding-top: 10px;
+}
+
+.btn-logis a {
+	text-decoration: underline;
+}
+
+.edit-fun {
+	width: 90px;
+	margin: 0px auto;
+}
+
+.edit-fun2 {
+	width: 135px;
+	margin: 0px auto;
+}
+
+.edit-fun2 span.fl {
+	display: inline-block;
+	line-height: 20px;
+}
+
+.edit-fun a {
+	height: 20px;
+	display: block;
+	line-height: 20px;
+}
+
+.support-con table thead .edit-fun a.btn-base {
+	padding: 0 0 0 5px;
+	text-decoration: none;
+}
+
+.support-con table thead .edit-fun a.btn-base span {
+	padding: 0 10px 0 5px;
+}
+
+.logistics-set {
+	width: 115px;
+	margin: 0px auto;
+	text-align: left;
+}
+
+.logistics-set select {
+	width: 100px;
+	border: 1px solid #d2d2d2;
+	color: #555;
+}
+
+.logistics-set input {
+	width: 105px;
+	height: 16px;
+	margin-top: 10px;
+	color: #555;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 2px 3px;
+	border: 1px solid #d2d2d2;
+}
+
+.support-con .page {
+	width: auto !important;
+}
+
+.info-left .pro-img {
+	width: 180px;
+}
+
+.info-left .pro-img img {
+	width: 180px;
+	height: 136px;
+	border-radius: 5px;
+	behavior: url(static/zhongchou/css/phoenix/PIE.htc);
+	position: relative;
+}

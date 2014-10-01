@@ -1,0 +1,103 @@
+.img-logo {
+	padding: 13px 23px 7px 0 !important;
+}
+
+.img-logo h1 {
+	border: none;
+}
+
+/* .img-logo h1 a {
+	width: 165px;
+	height: 50px;
+	background-position: 0px -42px;
+} */
+
+.icon-login,.txt-err {
+	background-image: url('../images/phoenix/icon/icons_v1.png');
+	background-repeat: no-repeat;
+}
+
+body {
+	background: #FFF;
+}
+
+.footer-login {
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.main {
+	width: 100%;
+	padding: 0px;
+	background: #FFF;
+	min-height: 0 !important;
+}
+
+.main .wrap {
+	position: relative;
+}
+
+.main-inner {
+	width: 100%;
+	height: 480px;
+	background-repeat: no-repeat;
+	background-position: 15% 40%;
+}
+
+.signin-block {
+	width: 350px;
+	border: 1px solid #d6d6d6;
+	border-radius: 5px;
+	position: relative;
+	behavior: url(css/phoenix/PIE.htc);
+}
+
+.signin-tit {
+	width: 100%;
+	height: 26px;
+	padding-top: 15px;
+}
+
+.signin-tit h3 {
+	line-height: 26px;
+	font-size: 22px;
+	text-indent: 20px;
+}
+
+.signin-form {
+	padding: 15px 20px 20px;
+}
+
+.signin-form .form-item {
+	position: relative;
+}
+
+.signin-form .form-item label {
+	width: 75px;
+}
+
+.signin-form .form-item input {
+	width: 170px;
+}
+
+.signin-form .form-item input.inp-wst {
+	width: 80px;
+}
+
+.code {
+	display: block;
+	position: absolute;
+	left: 180px;
+	top: 5px;
+	cursor: pointer;
+}
+
+.code img {
+	width: 60px;
+	height: 28px;
+}
+
+.form-reg {
+	margin-left: 80px;
+	padding: 5px 0px;
+}
